@@ -8,3 +8,10 @@ settings:
       q: quit
       w: session-save
       wq: quit --save
+  url.default_page:
+    global: https://google.com/
+  url.searchengines:
+    global:
+      DEFAULT: https://duckduckgo.com/?q={}
+  url.start_pages:
+    global: https://google.com

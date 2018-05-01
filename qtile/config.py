@@ -106,15 +106,15 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.TextBox(text="Anthony's OS", padding=10),
+                widget.TextBox(text="Anthony's OS / FLT", padding=10),
                 widget.GroupBox(),
                 widget.Prompt(),
                 widget.WindowName(),
-                widget.CurrentLayout(padding=10),
+                widget.CPUGraph(background="#000000", padding=10),
                 widget.HDDBusyGraph(background="#000000", padding=10),
-                widget.Memory(background="#000000", padding=10),
                 widget.Systray(),
                 widget.Clock(format='%Y-%m-%d %a %I:%M %p', padding=10, background="#000000"),
+                widget.CurrentLayoutIcon(padding=10, background="#000000"),
             ],
             24,
             background="#333333"
