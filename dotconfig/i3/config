@@ -28,10 +28,10 @@
 # Mod1 = Alt key on keyboard
 
 #Set Alt key
-set $mod Mod1
+#set $mod Mod1
 
 #set Super key
-#set $mod Mod4
+set $mod Mod4
 
 
 
@@ -285,7 +285,8 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-
+# browser
+bindsym $mod+b exec qutebrowser
 
 
 
@@ -399,7 +400,7 @@ for_window [class="Vivaldi-stable"] focus
 #exec --no-startup-id atom
 
 #file manager
-exec --no-startup-id thunar
+#exec --no-startup-id thunar
 
 #Mail clients
 #exec --no-startup-id evolution
@@ -542,7 +543,7 @@ bindsym $mod+F7 exec --no-startup-id virtualbox;focus
 #workspace 8 related
 for_window [class="Thunar"] focus
 bindsym $mod+F8 exec --no-startup-id thunar;focus
-bindsym $mod+e exec --no-startup-id thunar;focus
+bindsym $mod+e exec --no-startup-id termite -e ranger;focus
 bindsym control+mod1+b exec --no-startup-id thunar;focus
 
 #workspace 9 related
@@ -700,7 +701,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 20 # decrease
 
 
 # bar toggle, hide or show
-bindsym $mod+b bar mode toggle
+#bindsym $mod+b bar mode toggle
 
 
 #####################################################################################################################
