@@ -21,10 +21,36 @@ Bmenu
 yaourt -S bmenu
 ```
 
-Networking-tools (netstat, etc)
+##### Networking-tools (netstat, etc)
 ```sh
 pacman -S net-tools
 ```
 
-Ranger
+##### Ranger:
 - From bmenu
+
+### Basic KeyBindings
+Terminal 
+```
+mod + ENTER
+```
+
+File Menu (Ranger)
+```
+mod + e
+```
+
+Quit the application
+```
+mod + q
+```
+
+Switch Workspaces
+```
+mod + [1,2,3,4,5,6,7,8]
+```
+
+Move current frontend program to workspace
+```
+mod + SHIFT + [1,2,3,4,5,6,7,8]
+```
